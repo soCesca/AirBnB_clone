@@ -239,7 +239,8 @@ class HBNBCommand(cmd.Cmd):
 
     def do_all(self, arg):
         ''' Prints all string representation of all instances
-            based on or not on the class name.
+            based on 
+            or not on the class name.
         '''
         arg = arg.strip("\"'")
         result = []
